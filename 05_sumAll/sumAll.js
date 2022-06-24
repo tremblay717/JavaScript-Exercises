@@ -16,7 +16,7 @@ const sumAll = function (p1, p2) {
         while (i < valuesMissing) {
 
             newList.push(newList.length + 1)
-            i++
+            i++;
         }
         let count = 0;
 
@@ -25,7 +25,7 @@ const sumAll = function (p1, p2) {
             count += number[0];
         }
 
-        return count
+        return count;
     }
 }
 
