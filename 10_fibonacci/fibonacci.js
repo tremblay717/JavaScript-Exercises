@@ -1,4 +1,17 @@
-const fibonacci = function() {
+const fibonacci = function (num) {
+
+    
+    if (num < 0) {
+        return "OOPS";
+    } else {
+        let array = [0, 1];
+        let i = 1;
+        while (i < 30) {
+
+            array.push(array[i] + array[i - 1])
+        i++}
+        return array[num]
+    }
 
 };
 
