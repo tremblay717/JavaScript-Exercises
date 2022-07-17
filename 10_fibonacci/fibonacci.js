@@ -1,19 +1,16 @@
-const fibonacci = function (num) {
-
-    
+const fibonacci = function(num) {
     if (num < 0) {
-        return "OOPS";
+      return "OOPS";
     } else {
-        let array = [0, 1];
-        let i = 1;
-        while (i < 30) {
-
-            array.push(array[i] + array[i - 1])
-        i++}
-        return array[num]
+      let array = [0, 1];
+      let i = 1;
+      while (i < num) {
+        array.push(array[i] + array[i - 1]);
+        i++;
+      }
+      return array[num];
     }
+  };
 
-};
-
-// Do not edit below this line
+  // Do not edit below this line
 module.exports = fibonacci;
